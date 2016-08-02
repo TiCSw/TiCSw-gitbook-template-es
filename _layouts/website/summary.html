@@ -31,7 +31,24 @@
 {% endfor %}
 {% endmacro %}
 
+
+<div style="height:60px;">
+    <img style="width:180px;height:auto;position:absolute;margin:auto;left:0;right:0" src="{{ "images/universidad-de-los-andes-logo.png"|resolveAsset }}">
+</div>
+
 <ul class="summary">
+    <li class="divider"></li>
+</ul>
+
+<!--
+     min-height: 40px; background-image: url({{"images/book-icon-32.png"|resolveAsset}}); background-repeat:no-repeat; background-position: 5 5;
+-->
+<div style="padding-left: 40px;">
+    <b>{{ config.title }}</b>
+</div>
+
+<ul class="summary">
+    <li class="divider"></li>
 
     {% for part in summary.parts %}
     {% if part.title %}
