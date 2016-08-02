@@ -1,0 +1,20 @@
+# Plantilla para Gitbook
+
+# Reglas para Node.js:
+## archivos intermedios de Grunt
+.grunt
+npm-debug.log
+
+## archivos con las dependencias
+node_modules/
+
+# carpeta con el libro generado
+_book/
+
+# libros electrónicos generados
+*.epub
+*.mobi
+*.pdf
+
+# configuración de IntelliJ / WebStorm
+.idea/

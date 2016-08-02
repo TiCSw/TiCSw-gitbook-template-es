@@ -1,0 +1,14 @@
+{
+  "title" : "Plantilla para Gitbook en Español",
+  "description" : "Plantilla para crear libros en Gitbook",
+  "language": "es",
+  "gitbook": "3.x.x",
+  "structure": {
+    "readme": "Inicio.md",
+    "summary": "Contenido.md"
+  },
+  "plugins" : [
+    "expandable-chapters",
+    "-sharing"
+  ]
+}
